@@ -10,8 +10,7 @@ body {
 #hero {
     background-image: url("images/Rasht_Municipality_Mansion_in_an_Autumn_night.jpg");
     background-size: cover;
-    height: 100vh ;
-    width: 100%;
+    height: 800px;
 }
 
 #main-logo {
