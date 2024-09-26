@@ -4,50 +4,33 @@ body {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     background:linear-gradient(white,skyblue);
+    font-size:x-large
 }
 
 #hero {
     background-image: url("images/Rasht_Municipality_Mansion_in_an_Autumn_night.jpg");
     background-size: cover;
-    height: 600px ;
+    height: 100% ;
 }
 
 #main-logo {
     width: 100px;
     margin-top: 20px;
+    border-radius: 50px;
 }
-
-/*
-Challenge:
-Add a blurred border around the <h1> using
-the text-shadow technique you just learned. Set
-the blur to 4px and the color to black.
-*/
 
 #title {
     color: white;
     text-shadow: 0px 4px 4px blue;
 }
 
-.btn {
-    padding: 6px 12px;
-    background: f7e1d7;
-    border: 1px solid;
-    font-family: 'Orbitron', sans-serif;
-    color: #82a5ca;
-    font-weight: 800;
-    text-align: center;
-    display: block;
-    margin: 10px auto 0px auto;
-}
-
 .underline {
     border-bottom: 4px solid white;
 }
    
-h2,h3,h4,h5,h6,h7,h8 {
+h2 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size:x-large;
     font-weight: bolder;
     text-shadow: 0px 0px 2px darkorange;
     color: darkred;
@@ -58,16 +41,19 @@ p {
     font-style: normal;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    margin: 20px 6px 6px 20px 
+    margin: 20px 10px 10px 20px;
 }
 
 img {
     width: 500px;
-    border-radius:500px ;
+    border-radius:10px ;
     margin-bottom: 20px;
+    border: rgba(255, 0, 0, 0.327) 3px solid;
     
 }
 #footer{
     text-align: center;
     font-weight: bold;
+    background-color: rgb(35, 76, 93);
+    color:blanchedalmond;
 }
