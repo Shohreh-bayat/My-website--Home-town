@@ -49,4 +49,30 @@
              <p id="footer"> Designed By Shohreh </p>  
       
     </body>
+    <p>For further information click 
+        <button id="btn">here</button></P>
+        <ul id="list">
+        </ul>
+        <script>
+        var links;
+
+
+            links = ['https://www.britannica.com/place/Rasht', 'https://www.unesco.org/en/creative-cities/rasht', 'https://www.tripadvisor.co.uk/Tourism-g672711-Rasht_Gilan_Province-Vacations.html'];
+            
+            
+            document.getElementById('btn').addEventListener('click', (event) => {
+              links.forEach((links) => {
+                let element_list = document.getElementById('list');
+                let new_li = document.createElement('li');
+                let new_a = document.createElement('a');
+                new_a.setAttribute("href", links);
+                new_a.innerText = links;
+            
+                new_li.appendChild(new_a);
+            
+                element_list.appendChild(new_li);
+              });
+            
+            });
+            </script>
 </html>
