@@ -38,6 +38,15 @@ h2 {
     color: darkred;
 }
 
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-weight: bolder;
+    text-shadow: 0px 0px 2px darkorange;
+    color: rgb(21, 3, 70); 
+    font-style: italic; 
+}
+
 p {
     text-align: left;
     font-style: normal;
@@ -53,10 +62,28 @@ img {
     border: rgba(255, 0, 0, 0.327) 3px solid;
     
 }
-#footer{
+
+#btn{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
     text-align: center;
     font-weight: bold;
-    background-color: rgb(35, 76, 93);
-    color:blanchedalmond;
-    padding: 20px;
+    
+}
+
+#list{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    
+    
+    
 }
